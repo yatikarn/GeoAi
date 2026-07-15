@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="utf-8" />
+  <title>GeoAI — ผลงานฝึกอบรม</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 40px 20px;
+      background: #f7f9fc;
+      color: #1f2937;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    h1 { color: #123a5a; margin-bottom: 4px; }
+    p.sub { color: #4b5563; margin-top: 0; }
+    .card {
+      display: block;
+      background: white;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+      text-decoration: none;
+      color: inherit;
+    }
+    .card:hover { border-color: #123a5a; }
+    .card h2 { margin: 0 0 6px; font-size: 1.05rem; color: #123a5a; }
+    .card p { margin: 0; color: #4b5563; font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>GeoAI</h1>
+    <p class="sub">ผลงานฝึกอบรม GeoAI &amp; Geo-Informatics — GISTDA price list, GIS conversion, Google Earth Engine</p>
+
+    <a class="card" href="Sentinel2.html">
+      <h2>Sentinel-2 median composite — ประเทศไทย</h2>
+      <p>ภาพ Sentinel-2 ปลอดเมฆ (≤10%) ตั้งแต่ 2026-01-01 ถึงปัจจุบัน บน Google Satellite basemap</p>
+    </a>
+
+    <a class="card" href="Gistda_Price_List_comparison.html">
+      <h2>ตารางเปรียบเทียบราคาข้อมูลดาวเทียม GISTDA</h2>
+      <p>กราฟแท่ง Archive vs Tasking แบบ interactive จากราคาดาวเทียมทุกดวง</p>
+    </a>
+
+    <a class="card" href="Example/Thailand.html">
+      <h2>แผนที่ขอบเขตประเทศไทย</h2>
+      <p>แปลงจาก Thailand.shp เป็น GeoJSON แสดงผลแบบ interactive</p>
+    </a>
+
+    <a class="card" href="Gistda_Price_List_structured.html">
+      <h2>ตารางราคา GISTDA แบบโครงสร้าง (ทุกหมวด)</h2>
+      <p>ดึงจาก PDF ต้นฉบับด้วย pdfplumber ครอบคลุมดาวเทียม optical และ SAR</p>
+    </a>
+
+    <p class="sub" style="margin-top:30px">
+      Source code: <a href="https://github.com/yatikarn/GeoAi">github.com/yatikarn/GeoAi</a>
+    </p>
+  </div>
+</body>
+</html>
